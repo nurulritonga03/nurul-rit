@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    background-color: rgb(99, 92, 53);
+    color: #e4ec9f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    color: #e4ec9f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dropdown menu styles */
+.mainmenubtn {
+    background-color: rgb(177, 129, 26);
+    color: #e4ec9f;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mainmenubtn:hover {
+    background-color: #fff;
+    color: maroon;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #fff;
+    min-width: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-child a {
+    color: maroon;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+/* Table styles */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    color: #e4ec9f;
+    background-color: rgb(177, 129, 26);
+}
+
+th, td {
+    border: 1px solid #e4ec9f;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(177, 129, 26);
+    color: yellow;
+}
+
+td {
+    background-color: rgb(99, 92, 53);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(177, 129, 26);
+    color: #e4ec9f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
